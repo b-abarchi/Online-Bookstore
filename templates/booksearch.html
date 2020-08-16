@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="\static\styles.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+    {%include "includes/_message.html" %}
+    <h3>Search Results</h3>
+
+    <div class="dropdown-divider"></div>
+    <div class="container results-container">
+
+        {%for i in range(0, count) %}
+        <div class="card border-primary mb-3" style="width: 20rem">
+            <div class="card-body">
+                <h4 class="card-title">{{book[i].isbn}}</h4>
+                <h6 class="card-text">{{book[i].title}}</h6>
+                <h6 class="card-text">{{book[i].author}}</h6>
+                <h6 class="card-text">{{book[i].year}}</h6>
+            </div>
+            <div class="card-footer">
+                <a href="/bookpage/{{book[i].isbn}}" class="card-link">To Review the Book</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
