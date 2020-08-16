@@ -6,11 +6,16 @@ In this project, we built a book review website. Users are able to register for 
 
 Features:
 Registration
+
 Login & logout 
 Import: Provided for you in this project is a file called books.csv, which is a spreadsheet in CSV format of 5000 different books. Each one has an ISBN number, a title, an author, and a publication year. the csv file is converted in import.py and saved in the heruko database
+
 Search:After performing the search, the website displays a list of possible matching result using only part of a title, ISBN, or author name.
+
 Book Page: etails about the book: its title, author, publication year, ISBN number, and any reviews that users have left for the book on the website
+
 Review Submission: On the book page, users can submit a review: consisting of a rating on a scale of 1 to 5, as well as a text component to the review where the user can write their opinion about a book
+
 Goodreads Review Data & APi Access: the website returns a JSON response containing the book’s title, author, publication date, ISBN number, review count, and average score
 
 REQUIREMENTS:
