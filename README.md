@@ -19,14 +19,23 @@ Review Submission: On the book page, users can submit a review: consisting of a 
 Goodreads Review Data & APi Access: the website returns a JSON response containing the book’s title, author, publication date, ISBN number, review count, and average score
 
 REQUIREMENTS:
+
 we’ll use a database hosted by Heroku, an online web hosting service
+
 PostgreSQL
+
 Python and Flask
+
 Flask-Session
+
 psycopg2-binary
+
 SQLAlchemy
+
 ItsDangerous==0.24
+
 flask_sqlalchemy==2.4.3
+
 visual studio 
 
 Goodreads API
