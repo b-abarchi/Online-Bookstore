@@ -1,4 +1,4 @@
-# Project 1
+# Project 1: BOOKS
 
 Web Programming with Python and JavaScript
 GENERAL INFORMATION:
