@@ -2,5 +2,6 @@ Flask
 Flask-Session
 psycopg2-binary
 SQLAlchemy
-ItsDangerous==0.24
+werkzeug.security
+passlib.hash
 flask_sqlalchemy==2.4.3
